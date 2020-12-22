@@ -24,7 +24,6 @@ class Goods2 {
 	}	
 }
 
-
 public class ProblemsBeforeGeneric {
 	public static void main(String[] args) {
 		//#1. Goods1을 통해서 Apple 객체 추가 및 가져오기

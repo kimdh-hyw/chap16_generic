@@ -28,7 +28,6 @@ public class GenericMethod {
 		System.out.println(bool2);
 		
 		gm.<String, Integer>method3("국어", 80);
-		gm.method3("국어", 80); 
-		
+		gm.method3("국어", 80); 		
 	}
 }

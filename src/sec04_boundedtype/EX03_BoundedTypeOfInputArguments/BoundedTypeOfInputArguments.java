@@ -48,8 +48,7 @@ public class BoundedTypeOfInputArguments {
 		t.method4(new Goods<A>());
 		t.method4(new Goods<B>());
 //		t.method4(new Goods<C>());
-//		t.method4(new Goods<D>());
-		
+//		t.method4(new Goods<D>());		
 	}
 }
 

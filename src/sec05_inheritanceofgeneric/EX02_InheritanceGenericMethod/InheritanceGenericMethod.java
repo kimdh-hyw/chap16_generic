@@ -20,7 +20,7 @@ public class InheritanceGenericMethod {
 		
 		//#2. 자식클래스 제네릭메서드 이용
 		Child c = new Child();
-		c.<Integer>print(10);
-		c.print(10);
+		c.<Double>print(5.8);
+		c.print(5.8);
 	}
 }

@@ -24,7 +24,6 @@ class Child2<T, V> extends Parent<T>{
 	}	
 }
 
-
 public class InheritanceGenericClass {
 	public static void main(String[] args) {
 		//#1. 부모제네릭클래스
@@ -45,30 +44,4 @@ public class InheritanceGenericClass {
 		System.out.println(c2.getV());
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

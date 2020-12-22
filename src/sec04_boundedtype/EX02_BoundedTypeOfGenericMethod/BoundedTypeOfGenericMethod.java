@@ -27,7 +27,6 @@ public class BoundedTypeOfGenericMethod {
 			public void print() {
 				System.out.println("print() 구현");
 			}
-		});;
-		
+		});		
 	}
 }
