@@ -25,7 +25,7 @@ public class Solution2_Generic {
 		goods2.set(new Pencil());
 		Pencil pencil = goods2.get();
 		
-		//#3. 잘못된 캐스팅 ()
+		//#3. 잘못된 타입선언
 		Goods<Apple> goods3 = new Goods<>();
 		goods3.set(new Apple());
 //		Pencil pencil2 = goods3.get(); //강한타입체크
