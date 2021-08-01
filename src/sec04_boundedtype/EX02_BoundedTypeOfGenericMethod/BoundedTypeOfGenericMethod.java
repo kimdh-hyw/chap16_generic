@@ -19,7 +19,7 @@ class B {
 public class BoundedTypeOfGenericMethod {
 	public static void main(String[] args) {
 		A a = new A();
-		a.method1(5.8);
+		a.method1(5.8); // = a.<Double>method1(5.8);
 		
 		B b = new B();
 		b.method1(new MyInterface() {
